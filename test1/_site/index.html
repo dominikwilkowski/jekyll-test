@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style type="text/css">
+			dl {
+				width: 400px;
+				overflow: hidden;
+			}
+
+			dd, dt {
+				display: block;
+				float: left;
+				width: 50px;
+				height: 1em;
+				margin: 0;
+				padding: 0;
+			}
+
+			dd {
+				width: 350px;
+			}
+
+			dd:empty {
+				background-color: red;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 id="testing-jekyll-where-filter-bug">Testing <a href="https://github.com/jekyll/jekyll/issues/5586">jekyll where-filter bug</a></h1>
+
+<dl>
+	
+	<dt>one:</dt>
+	<dd>{"name"=&gt;"one"}</dd>
+
+	
+	<dt>two:</dt>
+	<dd>{"name"=&gt;"two-with-dashes"}</dd>
+
+	
+	<dt>three</dt>
+	<dd></dd>
+
+	
+	<dt>four</dt>
+	<dd>{"name"=&gt;"four_with_underscore"}</dd>
+
+	
+	<dt>five</dt>
+	<dd>{"name"=&gt;"five+with%special#characters"}</dd>
+</dl>
+
+	</body>
+
+</html>
