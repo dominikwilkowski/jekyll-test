@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+	<head>
+		<style type="text/css">
+			dl {
+				width: 400px;
+				overflow: hidden;
+			}
+
+			dd, dt {
+				display: block;
+				float: left;
+				width: 50px;
+				height: 1em;
+				margin: 0;
+				padding: 0;
+			}
+
+			dd {
+				width: 350px;
+			}
+
+			dd:empty {
+				background-color: red;
+			}
+		</style>
+	</head>
+
+	<body>
+		{{ content }}
+	</body>
+
+</html>

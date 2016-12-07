@@ -1,0 +1,17 @@
+[
+	{
+		"name": "one"
+	},
+	{
+		"name": "two-with-dashes"
+	},
+	{
+		"name": "three with spaces"
+	},
+	{
+		"name": "four_with_underscore"
+	},
+	{
+		"name": "five+with%special#characters"
+	}
+]

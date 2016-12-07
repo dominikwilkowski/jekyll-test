@@ -1,0 +1,9 @@
+# SITE SETTINGS
+title: Jekyll test
+description: Testing the where filter bug at https://github.com/jekyll/jekyll/issues/5586
+github_url: https://github.com/dominikwilkowski/jekyll-test
+
+
+# GEM DEPENDENCIES
+gems:
+  - jekyll-assets # https://github.com/jekyll/jekyll-assets
